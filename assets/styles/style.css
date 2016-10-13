@@ -1,9 +1,31 @@
 /*Sticky Footer*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 58px;
+}
+
 .footer {
   margin-bottom: 0;
   margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-text {
   margin: 20px 0;
+}
+
+/*Profile Image*/
+#alan-face {
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+/*No gap between navbar and jumbotron*/
+.header {
+  margin-bottom: 0;
 }
