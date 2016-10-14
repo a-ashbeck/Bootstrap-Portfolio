@@ -6,7 +6,7 @@ This website has been pushed to production on Heroku. Click [**here**](https://d
 
 ### Animations Included in this Project:
 You will find the following animations:
-*Spinning "Connect With Me" links on hover
-*Red pulse jumbotron on page load
-*Portfolio panels float up
-*Navbar brand comes out from the abyss
+* Spinning "Connect With Me" links on hover
+* Red pulse jumbotron on page load
+* Portfolio panels float up
+* Navbar brand comes out from the abyss
