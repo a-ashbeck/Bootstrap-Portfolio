@@ -29,3 +29,54 @@ body {
 .header {
   margin-bottom: 0;
 }
+
+/*Morph link functionality styles*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.morph:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/*Jumbotron animation*/
+@keyframes color-change {
+    0%   {background-color: inherit;}
+    50%  {background-color: #cc0000;}
+    100% {background-color: inherit;}
+}
+
+.jumbotron {
+    animation-name: color-change;
+    animation-duration: 2s;
+}
+
+/*Portfolio animation*/
+@keyframes portfolio {
+    0%   {margin-top: 100%;}
+    100% {margin-top: inherit;}
+}
+
+.portfolio {
+    animation-name: portfolio;
+    animation-duration: 2s;
+}
+
+/*Brand animation*/
+@keyframes brand {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.navbar-brand {
+    animation-name: brand;
+    animation-duration: 8s;
+}
